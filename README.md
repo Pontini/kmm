@@ -27,8 +27,15 @@ Through these platforms you can access the platform native code (JVM, JS, and Na
 ## Architecture
 
 ## Libraries 
+ [ktor](https://ktor.io/ "Ktor") :
+  Add ktor_version = last version in gradle.properties;
+  
+  Add dependencies in build.gradle.kts:
+  
+    implementation("io.ktor:ktor-client-core:$ktor_version")
+    implementation("io.ktor:ktor-client-cio:$ktor_version")
+    implementation ("org.kodein.di:kodein-di:7.10.0")
 
-### [ktor]("https://ktor.io/")
 
 # References 
 * [Libraries for kmm](https://github.com/AAkira/Kotlin-Multiplatform-Libraries "Libraries for kmm")
