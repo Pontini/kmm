@@ -21,7 +21,14 @@ Through these platforms you can access the platform native code (JVM, JS, and Na
 [![https://miro.medium.com/max/1400/0*0NEdJXtj9_IF2df5](https://miro.medium.com/max/1400/0*0NEdJXtj9_IF2df5 "https://miro.medium.com/max/1400/0*0NEdJXtj9_IF2df5")](https://miro.medium.com/max/1400/0*0NEdJXtj9_IF2df5 "https://miro.medium.com/max/1400/0*0NEdJXtj9_IF2df5")
 
 # App 
-* List of stocks with name, value, and 
+## Requeriments  
+* List of stocks with name, value
+* Details from stock with earnings
+## Architecture
+
+## Libraries 
+
+### [ktor]("https://ktor.io/")
 
 # References 
 * [Libraries for kmm](https://github.com/AAkira/Kotlin-Multiplatform-Libraries "Libraries for kmm")
