@@ -1,4 +1,4 @@
-package app.systems.myearnings
+package app.systems.myearnings.sample
 
 import platform.UIKit.UIDevice
 

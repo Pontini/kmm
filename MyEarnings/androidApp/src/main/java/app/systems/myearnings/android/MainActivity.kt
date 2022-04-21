@@ -2,7 +2,7 @@ package app.systems.myearnings.android
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import app.systems.myearnings.Greeting
+import app.systems.myearnings.sample.Greeting
 import android.widget.TextView
 
 fun greet(): String {

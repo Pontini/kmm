@@ -1,5 +1,6 @@
 package app.systems.myearnings
 
+import app.systems.myearnings.sample.Greeting
 import org.junit.Assert.assertTrue
 import org.junit.Test
 

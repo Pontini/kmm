@@ -1,5 +1,6 @@
 package app.systems.myearnings
 
+import app.systems.myearnings.sample.Greeting
 import kotlin.test.Test
 import kotlin.test.assertTrue
 
