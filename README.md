@@ -64,6 +64,7 @@ configuration. Doesn't require 3rd party tools.
 * [Libraries for kmm](https://github.com/AAkira/Kotlin-Multiplatform-Libraries "Libraries for kmm")
 * [KampKit for developer KMM](https://github.com/touchlab/KaMPKit "KampKit for developer KMM")
 * [KMM for beginners](https://medium.com/RafaelSermenho/kotlin-multiplatform-mobile-922b8c6abc9f "KMM")
+* [Intro to Kotlin Multiplatform](https://www.youtube.com/watch?v=HFDqjpfoSZE "Intro to Kotlin Multiplatform")
 
 
 
