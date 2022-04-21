@@ -10,7 +10,7 @@ import app.systems.myearnings.publ.domain.usecases.GetStocksByFilter
 
 class GetStocksByFilterImpl(private val repository: StockRepository) : GetStocksByFilter {
     override suspend fun invoke(filter: StockFilter): Either<List<StockEntity>,Failure> {
-        if (filter == null || filter.keywords.isNullOrEmpty()) {
+        if (filter.keywords.isNullOrEmpty()) {
             return Either.Error(Failure.InputInvalid(message = "My custom message that my domain must understand"))
         }
         return repository.search(filter.keywords)
