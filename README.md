@@ -46,7 +46,7 @@ Through these platforms you can access the platform native code (JVM, JS, and Na
 
 ## Questions
 
-1)Which dependency manager to use for iOS? Gradle or cocoaPods ?
+1) Which dependency manager to use for iOS? Gradle or cocoaPods ?
 
 
 
