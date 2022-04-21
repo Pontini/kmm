@@ -27,6 +27,7 @@ kotlin {
         val commonMain by getting{
             dependencies {
                 implementation("io.ktor:ktor-client-core:$ktorVersion")
+                implementation("org.kodein.di:kodein-di:7.10.0")
             }
         }
         val commonTest by getting {
@@ -35,9 +36,11 @@ kotlin {
             }
         }
         val androidMain by getting{
-            dependencies {
+            /*dependencies {
+               TODO
                 implementation("io.ktor:ktor-client-okhttp:$ktorVersion")
-            }
+                Validate if necessary in specific plataform
+            }*/
         }
         val androidTest by getting
         val iosX64Main by getting
@@ -48,9 +51,10 @@ kotlin {
             iosX64Main.dependsOn(this)
             iosArm64Main.dependsOn(this)
             iosSimulatorArm64Main.dependsOn(this)
-            dependencies {
+           /* dependencies {
+             TODO Validate if necessary in specific plataform
                 implementation("io.ktor:ktor-client-darwin:$ktorVersion")
-            }
+            }*/
         }
         val iosX64Test by getting
         val iosArm64Test by getting
