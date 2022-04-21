@@ -38,7 +38,7 @@ https://lucid.app/publicSegments/view/16355cb1-964c-4948-b6a0-c0d64f63b042
 ## Libraries 
  [ktor](https://ktor.io/ "Ktor")  | [Config ktor sharedCode](https://ktor.io/docs/getting-started-ktor-client-multiplatform-mobile.html#ktor-dependencies "Ktor sharedCode")
  
- [DI]implementation ("org.kodein.di:kodein-di:7.10.0")   
+ [Dependency Injection](https://medium.com/kodein-koders/dependency-injection-on-kotlin-multiplatform-part-1-factorize-your-code-f299dd2a5d04")
  
  ## Framework Distribution
   iOS:  CocoaPodes dependency manager or Gradle
