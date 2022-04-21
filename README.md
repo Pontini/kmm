@@ -34,14 +34,10 @@ Through these platforms you can access the platform native code (JVM, JS, and Na
 https://lucid.app/publicSegments/view/07776f46-3850-41c1-9cfc-7c83ead2b8a6
 
 ## Libraries 
- [ktor](https://ktor.io/ "Ktor") :
-  Add ktor_version = last version in gradle.properties;
-  
-  Add dependencies in build.gradle.kts:
-  
-    implementation("io.ktor:ktor-client-core:$ktor_version")
-    implementation("io.ktor:ktor-client-cio:$ktor_version")
-    
+ [ktor](https://ktor.io/ "Ktor") 
+ 
+ [Config ktor sharedCode](https://ktor.io/docs/getting-started-ktor-client-multiplatform-mobile.html#ktor-dependencies "Ktor sharedCode")
+ 
  [DI]implementation ("org.kodein.di:kodein-di:7.10.0")   
  
  ## Framework Distribution
