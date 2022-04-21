@@ -8,7 +8,7 @@ import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.launch
 
 class StockClient {
-    private val client = HttpClient()
+    private val client = HttpClient() // TODO Add DI here
 
     private suspend fun getHtml(): String {
         val response = client.get("https://ktor.io/docs")
