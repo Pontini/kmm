@@ -25,6 +25,7 @@ Through these platforms you can access the platform native code (JVM, JS, and Na
 * List of stocks with name, value
 * Details from stock with earnings
 ## Architecture
+https://lucid.app/publicSegments/view/07776f46-3850-41c1-9cfc-7c83ead2b8a6
 
 ## Libraries 
  [ktor](https://ktor.io/ "Ktor") :
