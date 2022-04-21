@@ -57,6 +57,9 @@ configuration. Doesn't require 3rd party tools.
 ## Questions
 
 1) Which dependency manager to use for iOS? Gradle or cocoaPods ?
+2) Is it possible to use coroutines on Android and iOS?
+3) is it possible to perform unit tests in the infra, domain, external layer?
+
 
 
 
