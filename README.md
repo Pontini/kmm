@@ -35,6 +35,19 @@ Through these platforms you can access the platform native code (JVM, JS, and Na
     implementation("io.ktor:ktor-client-core:$ktor_version")
     implementation("io.ktor:ktor-client-cio:$ktor_version")
     implementation ("org.kodein.di:kodein-di:7.10.0")
+ 
+ ## Framework Distribution
+ iOS:  CocoaPodes dependency manager or Gradle
+ Android: Gradle
+
+
+
+
+
+## Questions
+
+1)Which dependency manager to use for iOS? Gradle or cocoaPods ?
+
 
 
 # References 
