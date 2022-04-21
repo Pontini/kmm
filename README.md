@@ -24,7 +24,14 @@ Through these platforms you can access the platform native code (JVM, JS, and Na
 ## Requeriments  
 * List of stocks with name, value
 * Details from stock with earnings
+* Filter by date with earnings 
+* filter earnings by data or action
+* Insert/Update/Delete Stock
+* Insert/Update/Delete earning
+
+
 ## Architecture
+https://lucid.app/publicSegments/view/07776f46-3850-41c1-9cfc-7c83ead2b8a6
 
 ## Libraries 
  [ktor](https://ktor.io/ "Ktor") :
@@ -34,7 +41,8 @@ Through these platforms you can access the platform native code (JVM, JS, and Na
   
     implementation("io.ktor:ktor-client-core:$ktor_version")
     implementation("io.ktor:ktor-client-cio:$ktor_version")
-    implementation ("org.kodein.di:kodein-di:7.10.0")
+    
+ [DI]implementation ("org.kodein.di:kodein-di:7.10.0")   
  
  ## Framework Distribution
   iOS:  CocoaPodes dependency manager or Gradle
@@ -55,6 +63,9 @@ configuration. Doesn't require 3rd party tools.
 ## Questions
 
 1) Which dependency manager to use for iOS? Gradle or cocoaPods ?
+2) Is it possible to use coroutines on Android and iOS?
+3) is it possible to perform unit tests in the infra, domain, external layer?
+
 
 
 
@@ -62,6 +73,7 @@ configuration. Doesn't require 3rd party tools.
 * [Libraries for kmm](https://github.com/AAkira/Kotlin-Multiplatform-Libraries "Libraries for kmm")
 * [KampKit for developer KMM](https://github.com/touchlab/KaMPKit "KampKit for developer KMM")
 * [KMM for beginners](https://medium.com/RafaelSermenho/kotlin-multiplatform-mobile-922b8c6abc9f "KMM")
+* [Intro to Kotlin Multiplatform](https://www.youtube.com/watch?v=HFDqjpfoSZE "Intro to Kotlin Multiplatform")
 
 
 
