@@ -37,8 +37,16 @@ Through these platforms you can access the platform native code (JVM, JS, and Na
     implementation ("org.kodein.di:kodein-di:7.10.0")
  
  ## Framework Distribution
- iOS:  CocoaPodes dependency manager or Gradle
- Android: Gradle
+  iOS:  CocoaPodes dependency manager or Gradle
+  Android: Gradle
+ 
+Select the most suitable type of Kotlin framework distribution to Xcode:
+
+• CocoaPods Dependency Manager: Kotlin Multiplatform module is used as a CocoaPods dependency. Requires
+Ruby gem installation.
+
+• Regular framework: Kotlin Multiplatform module is integrated via internal Gradle task and Xcode Build Steps
+configuration. Doesn't require 3rd party tools.
  
 
 
