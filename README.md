@@ -70,6 +70,10 @@ configuration. Doesn't require 3rd party tools.
 * [KampKit for developer KMM](https://github.com/touchlab/KaMPKit "KampKit for developer KMM")
 * [KMM for beginners](https://medium.com/RafaelSermenho/kotlin-multiplatform-mobile-922b8c6abc9f "KMM")
 * [Intro to Kotlin Multiplatform](https://www.youtube.com/watch?v=HFDqjpfoSZE "Intro to Kotlin Multiplatform")
+* [Dependency Injection on Kotlin/Multiplatform — Part 1: Factorize your code](https://medium.com/kodein-koders/dependency-injection-on-kotlin-multiplatform-part-1-factorize-your-code-f299dd2a5d04)
+* [Dependency Injection on Kotlin/Multiplatform — Part 2: Test and build](https://medium.com/kodein-koders/dependency-injection-on-kotlin-multiplatform-part-2-test-and-build-b2e155c0824b)
+* [Dependency Injection on Kotlin/Multiplatform — Part 3: iOS and Android](https://medium.com/kodein-koders/dependency-injection-on-kotlin-multiplatform-part-3-ios-and-android-da77879da1bb)
+
 
 
 
